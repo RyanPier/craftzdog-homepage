@@ -1,8 +1,12 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
- 
+
+// Note: This build will fail if you haven't uploaded the thumbnail image yet.
+// If it fails again, temporarily delete the line below.
+import thumbTextConverter from '../public/images/works/textconverter_eyecatch.png' 
+
 const Works = () => (
   <Layout title="Works">
     <Container>
