@@ -43,7 +43,7 @@ const Home = () => (
           ml={{ md: 6 }}
           textAlign="center"
         >
-          <Image
+          {/* <Image
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
@@ -52,7 +52,7 @@ const Home = () => (
             borderRadius="full"
             src="/images/nhatanvo.jpg"
             alt="Profile image"
-          />
+          /> */}
         </Box>
       </Box>
 
